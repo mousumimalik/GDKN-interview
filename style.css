@@ -284,7 +284,7 @@ li {
     color: white;
     padding: 4px;
     text-align: center;
-    margin-left: 83%;
+    margin-left: 86%;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -348,6 +348,10 @@ li {
 
     .fourth {
         height: 100%;
+    }
+
+    .fourth .side {
+        margin: 50px;
     }
 
     .fourth .side .menu-box .menu-inside {
@@ -451,7 +455,7 @@ li {
     /* FOURTH PART */
 
     .fourth {
-        height: 110vh;
+        height: auto;
     }
 
     .fourth .side {
@@ -608,7 +612,8 @@ li {
 
     .fourth {
         width: 100%;
-        height: 135vh;
+        height: auto;
+        /* height: 135vh; */
         flex-direction: column;
         align-items: center;
     }
@@ -654,7 +659,12 @@ li {
         font-size: 10px;
     }
 }
+/* 
+@media screen and (max-width: 374px) {
 
-
+    .fourth {
+        height: auto;
+    }
+} */
 
 
